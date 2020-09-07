@@ -3,7 +3,43 @@
     <meta charset="utf-8">
     <title>Karan's Page</title>
     <link rel="stylesheet" type="text/css" href="assets/index.css">
+    <script
+        src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+        crossorigin="anonymous">
+    </script>
+    <script src="assets/index.js" defer></script>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <header class="top-section">
+        <h1>We are moving to: 
+            <span>
+                <button class="btn draw-border reveal" onclick="toggleVisibility(false)">Reveal!</button>
+            </span>
+        </h1>
+    </header>
+
+    <section class="loader-section">
+        <div class="loader">
+            <span>R</span>
+            <span>E</span>
+            <span>A</span>
+            <span>D</span>
+            <span>Y</span>
+            <span>?</span>
+            <span>!</span>
+        </div>
+    </section>
+
+    <section class="new-apt">
+        <img src="assets/apt.png" alt="Henry Adams!" />
+        <section>
+            <a
+                href="https://www.google.com/maps/place/1+Henry+Adams+St,+San+Francisco,+CA+94103/@37.7696405,-122.4055108,17z/data=!3m1!4b1!4m5!3m4!1s0x808f7e2d1c7cbdd3:0x66dbbb991edcf562!8m2!3d37.7696405!4d-122.4033221"
+                target="_blank">
+                <button class="btn draw-border maps">View on Maps</button>
+            </a>
+        <button class="btn draw-border rent">Rent: 3600</button>
+        </section>
+    </section>
 </body>
