@@ -9,9 +9,10 @@ const toggleVisibility = (visible) => {
 const activateTimer = () => {
     setTimeout(() => {
         $(".loader-section").hide();
-        $(".new-apt").show();        
+        $(".new-apt").show();
         $(".maps").show();
         $(".rent").show();
+        $(".apt").css('display', 'inline');
     }, 3000)
 }
 

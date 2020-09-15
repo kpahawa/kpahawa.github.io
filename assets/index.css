@@ -1,6 +1,6 @@
-body { 
+body {
     background: #1f1a25;
-    display: flex; 
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
@@ -85,7 +85,7 @@ h1 {
 .new-apt h1 {
     color: #58afd1;
     font-size: xx-large;
-    text-align: center;  
+    text-align: center;
 }
 
 .new-apt section {
@@ -121,7 +121,7 @@ h1 {
   .draw-border::before {
     border-bottom-width: 4px;
     border-left-width: 4px;
-}  
+}
 
 .draw-border::after {
     border-top-width: 4px;
@@ -146,7 +146,7 @@ h1 {
     -webkit-transition-delay: 0s, 0.25s, 0s;
             transition-delay: 0s, 0.25s, 0s;
 }
-  
+
 .btn {
     background: none;
     border: none;
@@ -165,5 +165,9 @@ h1 {
 }
 
 .rent {
+    display: none;
+}
+
+.apt {
     display: none;
 }
